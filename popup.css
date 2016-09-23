@@ -1,0 +1,45 @@
+.popup{
+	position: absolute;
+	top:50%;
+	left:50%;
+}
+
+.popup_block{
+	display: none; /*--masqu� par d�faut--*/
+	position: absolute;
+    width:300px;
+	margin:-150px;
+    box-sizing: border-box;
+    border-radius: 20px;
+	border-style:solid;
+	border-color:coral;
+    cursor: pointer;
+    transform-style: preserve-3d;
+	box-shadow: 0px 20px 100px #aaa;
+	background-color: white;
+	color: #0F0F0F;
+}
+
+.close{
+	padding:10px;
+}
+
+.popup_head{
+	background-color:#5CB85C;
+	padding:10px;
+	border-radius: 10px 10px 0 0;
+	transition-duration:0.2s;
+}
+
+.popup_body{
+	padding:20px;
+}
+
+.popup_head > h1, h2, h3, h4, h5{
+	margin-top:0px;
+	color:white;
+}
+
+.popup_head:hover{
+	padding-left:20px;
+}
